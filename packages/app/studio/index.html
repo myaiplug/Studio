@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <meta name="apple-mobile-web-app-capable" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+    <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="title" content="MyAiPlug Studio - Powered by openDAW"/>
+    <meta name="description"
+          content="MyAiPlug Studio - The Creators Hub for Audio, Video. NoDAW. NoPlugins NoHassle, NoLimits. Powered by openDAW technology."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://www.myaiplug.com"/>
+    <meta property="og:title" content="MyAiPlug Studio - Powered by openDAW"/>
+    <meta property="og:description"
+          content="MyAiPlug Studio - The Creators Hub for Audio, Video. NoDAW. NoPlugins NoHassle, NoLimits. Powered by openDAW technology."/>
+    <meta property="og:image" content="/images/meta.jpg"/>
+    <meta property="twitter:card" content="summary_large_image"/>
+    <meta property="twitter:url" content="https://www.myaiplug.com"/>
+    <meta property="twitter:title" content="MyAiPlug Studio - Powered by openDAW"/>
+    <meta property="twitter:description"
+          content="MyAiPlug Studio - The Creators Hub for Audio, Video. NoDAW. NoPlugins NoHassle, NoLimits. Powered by openDAW technology."/>
+    <meta property="twitter:image" content="/images/meta.jpg"/>
+    <link rel="icon" type="image/x-icon" href="/favicon.svg">
+    <link rel="canonical" href="https://www.myaiplug.com">
+    <title>🎧 MyAiPlug Studio</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            color: #EDECEC;
+            background: linear-gradient(120deg, #0D0D0F, #111122, #0A0A0F, #0D0D0F);
+            background-size: 400% 400%;
+            animation: gradient 22s ease infinite;
+            font-family: Rubik, sans-serif;
+            overflow: hidden;
+            display: flex
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        #preloader {
+            top: calc(50% - 0.5em);
+            left: calc(50% - 0.5em);
+            scale: 0.25;
+            position: absolute;
+            font-size: 10px;
+            width: 1em;
+            height: 1em;
+            border-radius: 50%;
+            text-indent: -9999em;
+            animation: mulShdSpin 1.1s infinite ease;
+            transform: translateZ(0);
+        }
+
+        @keyframes mulShdSpin {
+            0%,
+            100% {
+                box-shadow: 0em -2.6em 0em 0em #7C4DFF, 1.8em -1.8em 0 0em rgba(124, 77, 255, 0.2), 2.5em 0em 0 0em rgba(124, 77, 255, 0.2), 1.75em 1.75em 0 0em rgba(124, 77, 255, 0.2), 0em 2.5em 0 0em rgba(124, 77, 255, 0.2), -1.8em 1.8em 0 0em rgba(124, 77, 255, 0.2), -2.6em 0em 0 0em rgba(124, 77, 255, 0.5), -1.8em -1.8em 0 0em rgba(124, 77, 255, 0.7);
+            }
+            12.5% {
+                box-shadow: 0em -2.6em 0em 0em rgba(124, 77, 255, 0.7), 1.8em -1.8em 0 0em #7C4DFF, 2.5em 0em 0 0em rgba(124, 77, 255, 0.2), 1.75em 1.75em 0 0em rgba(124, 77, 255, 0.2), 0em 2.5em 0 0em rgba(124, 77, 255, 0.2), -1.8em 1.8em 0 0em rgba(124, 77, 255, 0.2), -2.6em 0em 0 0em rgba(124, 77, 255, 0.2), -1.8em -1.8em 0 0em rgba(124, 77, 255, 0.5);
+            }
+            25% {
+                box-shadow: 0em -2.6em 0em 0em rgba(124, 77, 255, 0.5), 1.8em -1.8em 0 0em rgba(124, 77, 255, 0.7), 2.5em 0em 0 0em #7C4DFF, 1.75em 1.75em 0 0em rgba(124, 77, 255, 0.2), 0em 2.5em 0 0em rgba(124, 77, 255, 0.2), -1.8em 1.8em 0 0em rgba(124, 77, 255, 0.2), -2.6em 0em 0 0em rgba(124, 77, 255, 0.2), -1.8em -1.8em 0 0em rgba(124, 77, 255, 0.2);
+            }
+            37.5% {
+                box-shadow: 0em -2.6em 0em 0em rgba(124, 77, 255, 0.2), 1.8em -1.8em 0 0em rgba(124, 77, 255, 0.5), 2.5em 0em 0 0em rgba(124, 77, 255, 0.7), 1.75em 1.75em 0 0em #7C4DFF, 0em 2.5em 0 0em rgba(124, 77, 255, 0.2), -1.8em 1.8em 0 0em rgba(124, 77, 255, 0.2), -2.6em 0em 0 0em rgba(124, 77, 255, 0.2), -1.8em -1.8em 0 0em rgba(124, 77, 255, 0.2);
+            }
+            50% {
+                box-shadow: 0em -2.6em 0em 0em rgba(124, 77, 255, 0.2), 1.8em -1.8em 0 0em rgba(124, 77, 255, 0.2), 2.5em 0em 0 0em rgba(124, 77, 255, 0.5), 1.75em 1.75em 0 0em rgba(124, 77, 255, 0.7), 0em 2.5em 0 0em #7C4DFF, -1.8em 1.8em 0 0em rgba(124, 77, 255, 0.2), -2.6em 0em 0 0em rgba(124, 77, 255, 0.2), -1.8em -1.8em 0 0em rgba(124, 77, 255, 0.2);
+            }
+            62.5% {
+                box-shadow: 0em -2.6em 0em 0em rgba(124, 77, 255, 0.2), 1.8em -1.8em 0 0em rgba(124, 77, 255, 0.2), 2.5em 0em 0 0em rgba(124, 77, 255, 0.2), 1.75em 1.75em 0 0em rgba(124, 77, 255, 0.5), 0em 2.5em 0 0em rgba(124, 77, 255, 0.7), -1.8em 1.8em 0 0em #7C4DFF, -2.6em 0em 0 0em rgba(124, 77, 255, 0.2), -1.8em -1.8em 0 0em rgba(124, 77, 255, 0.2);
+            }
+            75% {
+                box-shadow: 0em -2.6em 0em 0em rgba(124, 77, 255, 0.2), 1.8em -1.8em 0 0em rgba(124, 77, 255, 0.2), 2.5em 0em 0 0em rgba(124, 77, 255, 0.2), 1.75em 1.75em 0 0em rgba(124, 77, 255, 0.2), 0em 2.5em 0 0em rgba(124, 77, 255, 0.5), -1.8em 1.8em 0 0em rgba(124, 77, 255, 0.7), -2.6em 0em 0 0em #7C4DFF, -1.8em -1.8em 0 0em rgba(124, 77, 255, 0.2);
+            }
+            87.5% {
+                box-shadow: 0em -2.6em 0em 0em rgba(124, 77, 255, 0.2), 1.8em -1.8em 0 0em rgba(124, 77, 255, 0.2), 2.5em 0em 0 0em rgba(124, 77, 255, 0.2), 1.75em 1.75em 0 0em rgba(124, 77, 255, 0.2), 0em 2.5em 0 0em rgba(124, 77, 255, 0.2), -1.8em 1.8em 0 0em rgba(124, 77, 255, 0.5), -2.6em 0em 0 0em rgba(124, 77, 255, 0.7), -1.8em -1.8em 0 0em #7C4DFF;
+            }
+        }
+    </style>
+    <script type="module" src="/src/main.ts"></script>
+</head>
+<body>
+<span id="preloader"></span>
+</body>
+</html>
