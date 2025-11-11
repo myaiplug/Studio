@@ -1,0 +1,20 @@
+export const PianoKeyCodes = [
+    ["KeyA", "A"],
+    ["KeyW", "W"],
+    ["KeyS", "S"],
+    ["KeyE", "E"],
+    ["KeyD", "D"],
+    ["KeyF", "F"],
+    ["KeyT", "T"],
+    ["KeyG", "G"],
+    ["KeyY", "Y"],
+    ["KeyH", "H"],
+    ["KeyU", "U"],
+    ["KeyJ", "J"],
+    ["KeyK", "K"],
+    ["KeyO", "O"],
+    ["KeyL", "L"],
+    ["KeyP", "P"],
+    ["Semicolon", ";"],
+    ["Quote", "'"]
+]

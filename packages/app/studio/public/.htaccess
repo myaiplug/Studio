@@ -1,0 +1,17 @@
+# Enable Brotli Compression for supported files, only if they exist
+RewriteEngine On
+
+# Serve .br files if the client supports Brotli
+RewriteCond %{HTTP:Accept-Encoding} br
+RewriteCond %{REQUEST_FILENAME}.br -f
+RewriteRule ^(.*)$ $1.br [QSA,L]
+
+# Set Content-Encoding header only for actual Brotli-compressed files
+<FilesMatch "\.(js|css|html|json|svg|xml)\.br$">
+    Header set Content-Encoding br
+</FilesMatch>
+
+# SPA fallback
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
