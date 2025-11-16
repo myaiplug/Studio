@@ -1,0 +1,59 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage
+.nyc_output
+
+# Build
+.turbo
+dist-ssr
+*.local
+.cache
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Certificates
+/certs/
+/cert/
+
+# Development files
+/test-files/
+/wiki/
+/scripts/
+
+# Deployment specific
+/deploy/
+
+# Other packages (not needed for studio deployment)
+/packages/app/headless/
+/packages/app/example-import-sample/
+/packages/app/lab/
+/packages/app/soundfont/
+/packages/server/
+
+# Git
+.git
+.gitignore
+.github

@@ -21,3 +21,6 @@ lerna-debug.log
 /cert/
 /packages/app/soundfont/public/soundfonts/
 /packages/studio/adapters/src/script/Declarations.d.ts
+
+# Vercel
+.vercel
