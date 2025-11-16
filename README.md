@@ -219,6 +219,28 @@ Before starting, ensure you have the following installed on your system:
 * `npm run dev:studio` | `npm run dev:headless` (start dev server)
 * Navigate to https://localhost:8080 (port is important > cors sample api)
 
+### Deployment
+
+MyAiPlug Studio can be easily deployed to Vercel or other hosting platforms.
+
+#### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/myaiplug/Studio)
+
+For detailed deployment instructions, see [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md).
+
+Quick steps:
+1. Connect your repository to Vercel
+2. Vercel will auto-detect the configuration from `vercel.json`
+3. Deploy! The build takes about 2-3 minutes
+
+The deployment is configured with:
+- Node.js 20
+- Automatic SPA routing
+- Cross-origin isolation headers (required for audio processing)
+- Optimized caching for static assets
+
+
 ### Flow Charts
 
 <img width="6551" height="7057" alt="image" src="https://github.com/user-attachments/assets/266a9fb2-4b72-4752-bcf1-85fda2ff2cf1" />
